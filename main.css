@@ -136,7 +136,7 @@ li{
 
 .open .bar.end{
   display: inline-block;
-  transform: rotate(-480deg) translateX(-.8rem);
+  transform: rotate(-450deg) translateX(-.8rem);
 }
 
 /*End header*/
