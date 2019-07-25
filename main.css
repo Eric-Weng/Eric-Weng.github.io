@@ -135,6 +135,7 @@ li{
 }
 
 .open .bar.end{
+  display: inline-block;
   transform: rotate(-480deg) translateX(-.8rem);
 }
 
