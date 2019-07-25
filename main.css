@@ -51,6 +51,7 @@ header{
   width: 100%;
   height: 100vh;
   position: fixed;
+  top: -100vh;
   background-color: #16162d;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
@@ -124,7 +125,7 @@ li{
 }
 
 .open .bar.start{
-  transform: rotate(-450deg) translateX(.8rem);
+  transform: rotate(-495deg) translateX(.8rem);
 }
 
 .bar.end{
@@ -134,7 +135,7 @@ li{
 }
 
 .open .bar.end{
-  transform: rotate(-450deg) translateX(-.8rem);
+  transform: rotate(-495deg) translateX(-.8rem);
 }
 
 /*End header*/
