@@ -124,7 +124,7 @@ li{
 }
 
 .open .bar.start{
-  transform: rotate(-450grad) translateX(.8rem);
+  transform: rotate(-450deg) translateX(.8rem);
 }
 
 .bar.end{
@@ -134,7 +134,7 @@ li{
 }
 
 .open .bar.end{
-  transform: rotate(-450grad) translateX(-.8rem);
+  transform: rotate(-450deg) translateX(-.8rem);
 }
 
 /*End header*/
