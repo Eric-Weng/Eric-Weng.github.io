@@ -125,7 +125,7 @@ li{
 
 .open .bar.start{
   display: inline-block;
-  transform: rotate(-495deg) translateX(1rem);
+  transform: rotate(-450deg) translateX(2rem);
 }
 
 .bar.end{
@@ -136,7 +136,7 @@ li{
 
 .open .bar.end{
   display: inline-block;
-  transform: rotate(-495deg) translateX(-1rem);
+  transform: rotate(-450deg) translateX(-2rem);
 }
 
 /*End header*/
