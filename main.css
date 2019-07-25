@@ -54,6 +54,7 @@ header{
   height: 100vh;
   position: fixed;
   top: -100vh;
+  z-index: 50;
   background-color: #16162d;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
@@ -88,6 +89,7 @@ li{
 
 .top-nav.open{
   top: 0;
+
   border-radius: initial;
 }
 
@@ -141,6 +143,24 @@ li{
   transform: rotate(-450deg) translateX(.55rem) translateY(-1.25rem);
 }
 
+.landing-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.landing-text h1{
+  font-size: 20rem;
+  font-size: 'Pacifico', sans-serif;
+  background: linear-gradient(to top, #ffe838, #fd57bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 1rem;
+}
 /*End header*/
 
 
