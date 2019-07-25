@@ -120,7 +120,7 @@ li{
 
 .bar.start{
   tranform-origin: right;
-  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.8, 0.8);
 }
 
 .open .bar.start{
@@ -131,7 +131,7 @@ li{
 .bar.end{
   align-self: flex-end;
   tranform-origin: left;
-  transition: transform 650ms cubic-bezier(-0.54, -0.81, 0.57, 0.57);
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.8, 0.8);
 }
 
 .open .bar.end{
