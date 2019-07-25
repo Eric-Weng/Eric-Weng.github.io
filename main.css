@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 /*Start global*/
 *{
   margin: 0;
@@ -72,7 +74,7 @@ li{
 }
 
 .nav-link{
-  font-family: 'The Historia Demo', sans-serif;
+  font-family: 'Pacifico', sans-serif;
   font-size: 5rem;
   padding: 1rem;
 }
