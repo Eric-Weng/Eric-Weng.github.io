@@ -38,7 +38,42 @@ img{
 
 
 /*Start reusable*/
+.container{
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
 
+.section-heading{
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.section-heading h1{
+  font-size: 3.5rem;
+  color: rgba(255,255,255, .3);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.section-heading h1::before,
+.section-heading h1::after{
+  content: '';
+  position: absolute;
+  bottom: -.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255,255,255, 0.75);
+}
+
+.section-heading h6{
+  font-size: 1.6rem;
+  font-weight: 300;
+}
 /*End reusable*/
 
 
@@ -212,18 +247,21 @@ li{
 }
 
 .fa-facebook-square:hover{
-  color: #4267b2
+  color: #4267b2;
 }
 
 .fa-twitter-square:hover{
-  color: #38a1f3
+  color: #38a1f3;
 }
 
 .fa-linkedin-square:hover{
-  color: #ea4c89
+  color: #ea4c89;
 }
 /*End about*/
 
 /*Start services*/
+.myskills{
+  margin-top: 10rem;
 
+}
 /*End services*/
