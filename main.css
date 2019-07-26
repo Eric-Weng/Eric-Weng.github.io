@@ -94,7 +94,7 @@ li{
 }
 
 .menu-toggler{
-  position: absolute;
+  position: fixed;
   top: 5rem;
   right: 5rem;
   width: 5rem;
@@ -155,7 +155,7 @@ li{
 
 .landing-text h1{
   font-size: 20rem;
-  font-size: 'Pacifico', sans-serif;
+  font-family: : 'Pacifico', sans-serif;
   background: linear-gradient(to top, #ffe838, #fd57bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
