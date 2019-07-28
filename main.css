@@ -146,7 +146,6 @@ li{
 
 .top-nav.open{
   top: 0;
-
   border-radius: initial;
 }
 
@@ -231,7 +230,7 @@ li{
 /*Start about*/
 .about .container{
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
 }
 
