@@ -21,6 +21,10 @@ body{
   background-size: cover;
 }
 
+section{
+  padding: 6rem;
+}
+
 a{
   text-decoration: none;
   color: #eee;
@@ -336,7 +340,8 @@ li{
   margin-bottom: 0;
 }
 
-.profile-img{
+.portfolio-img{
+  width: 50rem;
   flex: 1;
 }
 
