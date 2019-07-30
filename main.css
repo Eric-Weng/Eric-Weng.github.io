@@ -24,7 +24,8 @@ body{
 }
 
 section{
-  padding: 5.5rem 0;
+  margin: 5.5rem 0 5.5rem 0;
+  height: 100vh;
 }
 
 a{
@@ -51,6 +52,7 @@ img{
   height: 100vh;
   margin: 0 auto;
   position: relative;
+  padding-top: 10rem;
 }
 
 .section-heading{
@@ -202,7 +204,7 @@ li{
 }
 
 .landing-text{
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -236,6 +238,7 @@ li{
   height: 100vh;
   justify-content: center;
   margin-top: 15rem;
+  padding-top: 15rem;
 }
 
 .about-heading{
@@ -290,7 +293,7 @@ li{
 
 /*Start services*/
 .my-skills{
-  margin-top: 22rem;
+  margin-top: 15rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 5rem;
@@ -344,12 +347,12 @@ li{
 }
 
 .portfolio-img{
-  width: 50rem;
+  width: 100%;
   flex: 1;
 }
 
 .portfolio-description{
-  flex: 2.2;
+  flex: 3;
 }
 
 .portfolio-description h6{
@@ -446,6 +449,53 @@ li{
 /*Start form*/
 .contact{
   background-color:#272727;
+  margin-bottom: 0;
+}
+
+.contact .container{
+  margin-bottom: -6rem;
+}
+
+.contact-heading{
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.contact-heading h1{
+  font-size: 3.5rem;
+  color: rgba(255,255,255, .3);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.contact-heading h1::before,
+.contact-heading h1::after{
+  content: '';
+  position: absolute;
+  bottom: -.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255,255,255, 0.75);
+}
+
+.contact-heading h1::before{
+  width: 10rem;
+  height: 3px;
+  border-radius: .8rem;
+}
+
+.contact-heading h1::after{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  bottom: -1rem;
+}
+
+.contact-heading h6{
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 
 form{
@@ -631,18 +681,33 @@ input[type = "submit"]:hover{
   .about .container{
     flex-direction: column;
     min-height: 100%;
+    margin-top: auto;
+  }
+
+  .services .container{
+    padding-top: 5rem;
+  }
+
+  .social-media{
+    margin-top: 5rem;
   }
 
   .profile-img{
     width: 100%;
   }
 
+  .my-skills{
+    margin-top: auto;
+  }
+
   .portfolio-item{
     flex-direction: column;
+    margin: auto;
   }
 
   .portfolio-img{
-    width: 100%;
+    margin: 0;
+    width: 50%;
     order: 1;
   }
 
