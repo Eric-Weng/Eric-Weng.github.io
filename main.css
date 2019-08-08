@@ -592,9 +592,15 @@ input[type = "submit"]:hover{
   .nav-list{
     flex-direction: column;
   }
-  li{
-    margin: 2.5rem 0;
+
+  .about .nav-list{
+    flex-direction: initial;
   }
+
+  .social-media{
+    margin-top: 6.5rem;
+  }
+
 }
 
 @media screen and (max-width: 758px){
@@ -629,6 +635,14 @@ input[type = "submit"]:hover{
 
   .section-heading{
     font-size: 3rem;
+  }
+
+  .about-details p{
+    font-size: 1.7rem;
+  }
+
+  .social-media{
+    margin-top: 5rem;
   }
 
   .about-details .nav-list{
